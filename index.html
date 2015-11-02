@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Sniffer </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <style>
+             body {
+                position: relative;
+            }
+
+            #main {     background-image: url(img/paws.png);
+                        background-repeat: no-repeat;
+                        background-position:right bottom;
+                        padding-top:50px;height:700px;color: #fff; background-color: #185988;}
+
+            #product { background-image: url(img/paws_line.png);
+                        background-repeat: no-repeat;
+                        background-position:bottom;
+                        background-size: 130%;
+                        padding-top:50px;height:780px;color: #585858; background-color: #FFFFFF;}
+
+            #product2 { background-image: url(img/paws_line.png);
+                        background-repeat: no-repeat;
+                        background-position:bottom;
+                        background-size: 130%;
+                        padding-top:50px;height:710px;color: #585858; background-color: #FFFFFF;}
+
+            #product3 { background-image: url(img/paws_line.png);
+                        background-repeat: no-repeat;
+                        background-position:bottom;
+                        background-size: 130%;
+                        padding-top:50px;height:730px;color: #585858; background-color: #FFFFFF;}
+
+            #product4 { padding-top:50px;height:670px;color: #585858; background-color: #FFFFFF;}
+
+
+            #about {padding-top:50px;height:700px;color: #fff; background-color: #185988;}
+
+        </style>
+
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/index.html">Sniffer</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#main">Home</a></li>
+                        <li><a href="#product">Product</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="main" class="container-fluid">
+
+        </br><h1 class="text-center"> Sniffer </h1>
+                <h4 class="text-center"><em>Track your pet anytime, anywhere...</em></h4></br>
+
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-4" style="padding:25px;">
+                    <form role="form" action="//formspree.io/sniffergps@gmail.com" method="POST" onSubmit="alert('Thank you for your interest');">
+                        <h3> Sign up to get updated now</h3>
+                        <div class="form-group">
+                            <label for="first_name">First Name:</label></br>
+                            <input type="text" class="form-control" name="first_name" placeholder="Enter first name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last_name">Last Name:</label></br>
+                            <input type="text" class="form-control" name="last_name" placeholder="Enter last name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label></br>
+                            <input type="email" class="form-control" name="email" placeholder="Enter email">
+                        </div>
+                        <button type="submit" class="btn btn-block"> Send </button>
+                        <input type="hidden" name="_next" value="/index.html" />
+                    </form>
+                </div>
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-5">
+                </br></br></br>
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/moCSmZGVO3I"></iframe>
+                      </div>
+                </div>
+                <div class="col-sm-1">
+                </div>
+            </div>
+        </div>
+
+        <div id="product" class="container-fluid">
+            <h2 class="text-center"> The Product </h2></br></br>
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-4">
+                </br><img class="img-responsive" src="img/logo.png" alt="Sniffer Logo">
+                </div>
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-4">
+                </br></br></br></br></br></br></br> <h3> A smart dog tracker</h3>
+                    <h4> Using various GPS tracking technologies, Sniffer always makes you aware of the location of your dog. </h4>
+                </div>
+                <div class="col-sm-1">
+                </div>
+            </div>
+        </div>
+
+        <div id="product2" class="container-fluid">
+        </br></br><div class="row">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-4">
+                </br></br></br></br></br></br><img class="img-responsive" src="img/leash.png" alt="Leash">
+                </div>
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-4">
+                </br></br></br></br></br></br></br> <h3> Effortless Charging </h3>
+                    <h4> The retractable leash equipped with a recharhable battery allows the tracking collar to be charged effortlessly while
+                        walking out the dog. </h4>
+                </div>
+                <div class="col-sm-1">
+                </div>
+            </div>
+        </div>
+
+        <div id="product3" class="container-fluid">
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-5">
+                </br></br></br><img class="img-responsive" src="img/login_menu.png" alt="Sniffer Login and Menu Screen Demonstrations">
+                </div>
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-4">
+                </br></br></br></br></br></br></br> <h3> Fast and Easy Interface</h3>
+                    <h4> The mobile app of Sniffer offers an easy way of interaction with the device. </h4>
+                </div>
+                <div class="col-sm-1">
+                </div>
+            </div>
+        </div>
+
+        <div id="product4" class="container-fluid">
+            <div class="row">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-4">
+                </br></br><img class="img-responsive" src="img/map.png" alt="Track your dog on the map">
+                </div>
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-4">
+                </br></br></br></br></br></br></br> <h3> Maps Integration </h3>
+                    <h4> Sniffer allows the users to track their dogs real time on the map using different
+                        technologies such as Wi-fi, Cellular networks and Bluetooth together. </h4>
+                </div>
+                <div class="col-sm-1">
+                </div>
+            </div>
+        </div>
+
+        <div id="about" class="container-fluid">
+            </br></br><h2 class="text-center"> About Us </h2></br>
+        </br><img class="img-responsive center-block" src="img/logo.png" alt="Sniffer Logo" width="20%" height="20%"></br>
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-6">
+                <h4 class="text-center"> We are a startup formed in Georgia Institute of Technology. As Sniffer, we bring a solution for the pet safety
+                    by offering different safety precautions through our product. </h4>
+                <h4 class="text-center"> You can reach us for your questions or feedback through <address>sniffergps@gmail.com</address></h4>
+            </div>
+            <div class="col-sm-3">
+            </div>
+        </div>
+    </body>
+</html>
